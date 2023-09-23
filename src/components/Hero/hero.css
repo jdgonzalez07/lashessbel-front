@@ -1,0 +1,57 @@
+@import url("https://fonts.googleapis.com/css2?family=Mooli&display=swap");
+
+.container-hero {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  color: #9882cc;
+  background-color: #d6bde988;
+  /* background:linear-gradient(45deg,#B7A6DE,#E0C5F5); */
+}
+
+.description-hero {
+  
+  border: 1px solid #9882cc;
+  box-shadow: 5px 3px 16px 5px black;
+  border-radius: 1rem;
+ /*  width: 500px; */
+  padding: 1.5rem;
+  max-width: 50%;
+  /* margin: 2rem; */
+  font-family: "Mooli", sans-serif;
+  font-weight: 700;
+  margin-top: 1.5rem;
+ 
+  
+}
+
+.container-hero h3,h4 {
+  margin-top: 2rem;
+  font-family: "Mooli", sans-serif;
+  font-weight: bold;
+  
+}
+
+/* .container-hero h4 {
+  margin-top: 2rem;
+  font-family: "Mooli", sans-serif;
+  font-weight: 800;
+  
+} */
+
+
+@media (max-width:580px){
+
+  .description-hero{
+    padding: 1.5rem;
+    max-width: 80%;
+    margin: 2rem;
+  }
+
+  .container-hero h3 {
+    margin-top: 2rem;
+    
+  }
+}
