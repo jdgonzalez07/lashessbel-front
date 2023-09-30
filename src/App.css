@@ -1,0 +1,26 @@
+@import url("https://fonts.googleapis.com/css2?family=Mooli&display=swap");
+
+.btn-cards {
+  background-color: #9882cc;
+  padding: 0.5rem;
+  border-radius: 7rem;
+  text-decoration: none;
+  color: inherit;
+  font-weight: 700;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Mooli", sans-serif;
+  font-size: 16px;
+  transition: background 0.5s ease-in-out;
+  will-change: background;
+  transition: font-size 0.2s ease-in-out;
+  will-change: font-size;
+}
+
+.btn-cards:hover{
+    background-color: #fff;
+    font-size:18px
+}
+
+

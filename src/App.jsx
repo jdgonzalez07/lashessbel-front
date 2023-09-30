@@ -5,6 +5,7 @@ import LayoutMain from "./pages/Layouts/LayoutMain";
 import Home from "./pages/Home/Home";
 import Pestañas from "./pages/Pestañas/Pestañas";
 import Depilacion from "./pages/Depilacion/Depilacion";
+import Detail from "./pages/Detail/Detail";
 
 function App() {
   const router = createBrowserRouter([
@@ -19,6 +20,10 @@ function App() {
         {
           path: "/pestañas",
           element: <Pestañas />,
+        },
+        {
+          path: "/:id",
+          element: <Detail />,
         },
         {
           path: "/depilacion",

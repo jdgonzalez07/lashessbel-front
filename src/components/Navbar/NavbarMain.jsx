@@ -1,5 +1,5 @@
 import "../Navbar/navbar.css";
-import { Link as Anchor } from "react-router-dom";
+import { Link as Anchor, NavLink } from "react-router-dom";
 
 function NavbarMain() {
   return (
@@ -7,14 +7,20 @@ function NavbarMain() {
       <div className="logo-and-title">
         <div className="title-navbar">
           <h3>
-            <a href="#">Lashess Bel</a>
+            <Anchor to={"/"}>Lashess Bel</Anchor>
           </h3>
         </div>
       </div>
       <div className="links-navbar">
-        <Anchor to={"/"}>Home</Anchor>
-        <Anchor to={"/pestañas"}>Pestañas</Anchor>
-        <Anchor to={"/depilacion"}>Depilación</Anchor>
+        <NavLink to={"/"} ClassName="active">
+          Home
+        </NavLink>
+        <NavLink to={"/pestañas"} ClassName="active">
+          Pestañas
+        </NavLink>
+        <NavLink to={"/depilacion"} ClassName="active">
+          Depilación
+        </NavLink>
       </div>
     </div>
   );
