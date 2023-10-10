@@ -1,0 +1,42 @@
+.container-depiMujer {
+  width: 80%;
+  height: 80%;
+  /* background: linear-gradient(45deg, #d5a6de, #fabcee); */
+  background-color: #d5a6de;
+  margin: 1rem;
+  border-radius: 2rem;
+  padding: 2.5rem;
+}
+
+.info-depi-mujer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+  font-family: "Mooli", sans-serif;
+  border-bottom: 1.5px solid #9378d3;
+  color: #fff;
+  /* border-radius: 1rem; */
+  /* padding: 0.1rem; */
+}
+
+.title-depi-mujer {
+  color: #9378d3;
+  margin-top: 1rem;
+  font-weight: bold;
+}
+
+.zone-depi-mujer {
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+
+.price-depi-mujer {
+  font-size: 1.1rem;
+  font-weight: 900;
+}
+
+.price-depi-mujer span {
+  color: #9378d3;
+}

@@ -1,7 +1,15 @@
+import { useState } from "react";
 import "../Navbar/navbar.css";
 import { Link as Anchor, NavLink } from "react-router-dom";
 
 function NavbarMain() {
+
+  const [isOpen, setIsOpen] = useState(false);
+
+  const toggleMenu = () => {
+    setIsOpen(!isOpen);
+  };
+
   return (
     <div className="container-navbar">
       <div className="logo-and-title">
@@ -12,16 +20,34 @@ function NavbarMain() {
         </div>
       </div>
       <div className="links-navbar">
-        <NavLink to={"/"} ClassName="active">
-          Home
+        <NavLink to={"/"} className="active">
+          Inicio
         </NavLink>
-        <NavLink to={"/pestañas"} ClassName="active">
+        <NavLink to={"/pestañas"} className="active">
           Pestañas
         </NavLink>
-        <NavLink to={"/depilacion"} ClassName="active">
+        <NavLink to={"/depilacion"} className="active">
           Depilación
         </NavLink>
       </div>
+      <div className="mobile-menu">
+      <button onClick={toggleMenu} className="menu-button">
+        ☰
+      </button>
+      {isOpen && (
+        <div className="menu-dropdown">
+           <NavLink to={"/"} className="active">
+          Home
+        </NavLink>
+        <NavLink to={"/pestañas"} className="active">
+          Pestañas
+        </NavLink>
+        <NavLink to={"/depilacion"} className="active">
+          Depilación
+        </NavLink>
+        </div>
+      )}
+    </div>
     </div>
   );
 }

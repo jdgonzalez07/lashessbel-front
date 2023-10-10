@@ -1,9 +1,10 @@
+import HeroDepilacion from "../../components/HeroDepilacion/HeroDepilacion";
 
 
 function Depilacion() {
   return (
     <div>
-      <h2>Depilacion</h2>
+      <HeroDepilacion/>
     </div>
   );
 }

@@ -36,10 +36,4 @@ function App() {
 }
 
 export default App;
-{
-  /* <>
-      <Navbar />
-      <Hero />
-      <Footer />
-    </> */
-}
+

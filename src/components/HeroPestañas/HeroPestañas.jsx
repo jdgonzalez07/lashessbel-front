@@ -6,11 +6,11 @@ function HeroPestañas() {
   return (
     <div className="container-pestañas">
       <p>Servicio de  <strong>pestañas</strong> y <strong>cejas</strong> que ofrecemos</p>
-      <div className="arrows">
+      {/* <div className="arrows">
         <FaArrowDown size={"1.5rem"} />
         <FaArrowDown size={"1.5rem"} />
         <FaArrowDown size={"1.5rem"} />
-      </div>
+      </div> */}
 
       <CardsPestañas />
     </div>

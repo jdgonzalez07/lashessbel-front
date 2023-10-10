@@ -1,7 +1,7 @@
 import { Card } from "react-bootstrap";
 import "../CardDetailPestañas/cardDetailPestañas.css";
 import pestañasSeleccionadas from "../../../imagesLashess/pestañasSeleccionadas";
-import { useParams } from "react-router-dom";
+import { Link, useParams } from "react-router-dom";
 
 function CardDetailPestañas() {
   const { id } = useParams();
@@ -13,6 +13,7 @@ function CardDetailPestañas() {
 
   return (
     <div className="container-detail">
+      <Link id="btn-back-detail" className="btn-cards" to={"/pestañas"}>Volver</Link>
       <div className="card card-detail">
         <Card.Img
           variant="top"
@@ -22,9 +23,11 @@ function CardDetailPestañas() {
         />
         <div className="card-body">
           <Card.Title className="title-detail">{cardSelected.name}</Card.Title>
-
           <Card.Text className="text-detail">
             {cardSelected.description}
+          </Card.Text>
+          <Card.Text className="text-detail">
+            Precio: <span>${cardSelected.price}</span>
           </Card.Text>
         </div>
       </div>

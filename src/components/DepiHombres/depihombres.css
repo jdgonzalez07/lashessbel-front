@@ -1,0 +1,42 @@
+.container-depiHombres{
+    /* background-color: rgba(116, 149, 240, 0.623); */
+    /* background: linear-gradient(45deg,  #4a95d3e1, #3693dfbe); */
+    background-color: #80a3e2d5;
+    width: 80%;
+    height: 80%;
+    margin: 1rem;
+    border-radius: 2rem;
+    padding: 2.5rem;
+
+}
+.info-depi-hombres {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    font-family: "Mooli", sans-serif;
+    color: #eee;
+    border-bottom: 1px solid #4171d8da ;
+}
+
+.title-depi-hombres{
+    color: #4171d8da;
+    margin-top: 1rem;
+    font-weight: bold;
+}
+
+.zone-depi-hombres{
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+
+.price-depi-hombres{
+    font-size: 1.1rem;
+    font-weight: 900;
+}
+
+.price-depi-hombres span{
+    font-weight: 900;
+    color: #4171d8da;
+}

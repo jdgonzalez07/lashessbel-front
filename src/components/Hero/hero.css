@@ -14,15 +14,18 @@
 .description-hero {
   
   border: 1px solid #9882cc;
-  box-shadow: 5px 3px 16px 5px black;
-  background-color: #eee;
+  /* box-shadow: 5px 3px 16px 5px black; */
+  /* background-color: #eee; */
+  color: #fff;
+  background: linear-gradient(to bottom, #d5a6de, #fabcee);
   border-radius: 1rem;
  /*  width: 500px; */
   padding: 1.5rem;
   max-width: 50%;
   /* margin: 2rem; */
   font-family: "Mooli", sans-serif;
-  font-weight: 700;
+  font-size: 1.2rem;
+  font-weight: 500;
   margin-top: 1.5rem;
 
 }

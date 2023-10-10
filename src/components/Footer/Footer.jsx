@@ -7,12 +7,12 @@ function Footer() {
       <div className="footer-contact">
         <ul>
           <li>
-            <a href="https://www.facebook.com/">
+            <a href="https://www.facebook.com/depilacion.definitivas">
               <FaFacebook />
             </a>
           </li>
           <li>
-            <a href="https://www.instagram.com/">
+            <a href="https://www.instagram.com/lashess.bel/">
               <FaInstagram />
             </a>
           </li>
@@ -22,7 +22,7 @@ function Footer() {
             </a>
           </li>
         </ul>
-        <p>&copy; 2023 Juan González. All rights reserved.</p>
+        <p>&copy; 2023 Lashess Bel. All rights reserved.</p>
       </div>
     </footer>
   );
