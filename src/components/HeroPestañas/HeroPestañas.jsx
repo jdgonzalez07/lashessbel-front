@@ -1,5 +1,5 @@
 import "../HeroPestañas/heropestañas.css";
-import { FaArrowDown } from "react-icons/fa";
+
 import CardsPestañas from "../CardsPestañas/CardsPestañas.jsx";
 
 function HeroPestañas() {

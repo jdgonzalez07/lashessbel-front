@@ -1,4 +1,4 @@
-import React from "react";
+
 import "../DepiMujer/depimujer.css";
 import infoMujeres from "../../../infoDepilacion/infoMujeres";
 
