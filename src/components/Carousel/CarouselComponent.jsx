@@ -1,6 +1,6 @@
 
 import imagesLashess from "../../../imagesLashess/imagesLashess.js";
-import "./carouselcomponent.css"
+import "../Carousel/carouselcomponent.css"
 import { Carousel } from "react-bootstrap";
 
 
@@ -17,9 +17,6 @@ function CarouselComponent() {
                   src={image.src}
                   alt={image.name}
                 />
-               {/*  <Carousel.Caption>
-                  <h3>{image.name}</h3>
-                </Carousel.Caption> */}
               </div>
             ))}
           </div>
