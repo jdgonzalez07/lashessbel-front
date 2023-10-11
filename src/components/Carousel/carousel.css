@@ -5,10 +5,10 @@
     height: 200px;
     border: 2px solid #9882cc;
     border-radius: 2rem;
-    will-change: width;
+    /* will-change: width;
     transition: width 0.5s ease-in-out;
     will-change: height;
-    transition: height 0.s ease-in-out;
+    transition: height 0.s ease-in-out; */
 }
  
 .img-carousel:hover{
