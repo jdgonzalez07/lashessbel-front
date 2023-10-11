@@ -1,6 +1,6 @@
 
 import imagesLashess from "../../../imagesLashess/imagesLashess.js";
-import './carouselcomponent.css'
+import "./carouselcomponent.css"
 import { Carousel } from "react-bootstrap";
 
 
