@@ -11,11 +11,11 @@
     transition: height 0.s ease-in-out; */
 }
  
-.img-carousel:hover{
+/* .img-carousel:hover{
     cursor:pointer;
     width: 15rem;
     height: 12rem;
-}
+} */
 .container {
     display: flex;
     justify-content: center;
