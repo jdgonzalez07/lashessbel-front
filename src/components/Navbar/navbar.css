@@ -74,6 +74,13 @@
   color: #9378d3;
 }
 
+.nuevo{
+  position: absolute;
+  background-color: #9378d3;
+  padding: 1px;
+  border-radius: 2rem;
+}
+
 
 
 .btn-navbar {
@@ -139,7 +146,7 @@
 }
 
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 850px) {
   /* Oculta el menú horizontal en pantallas pequeñas */
   .links-navbar {
     display: none;
@@ -153,7 +160,7 @@
 
 }
 
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 850px) {
   /* Oculta el menú horizontal en pantallas pequeñas */
   .links-navbar {
     display: block;

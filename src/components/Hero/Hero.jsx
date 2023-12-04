@@ -1,5 +1,6 @@
 import CarouselComponent from "../Carousel/CarouselComponent";
 import "../Hero/hero.css";
+import { Link as Anchor } from "react-router-dom";
 import { FaArrowDown } from "react-icons/fa";
 
 function Hero() {
@@ -17,10 +18,14 @@ function Hero() {
           natural.
         </p>
       </div>
+      <div className="container-hero-nuevo">
+        <h3>Tenemos nuevos servicios para ofrecer</h3>
+        <p>Haz click en el siguiente enlace para más información: </p>
+        <Anchor to={"/nuevos-servicios"}>Nuevos servicios</Anchor>
+      </div>
       <h3>Un poco de nuestro trabajo</h3>
       <FaArrowDown size={"1.5rem"} />
       <CarouselComponent />
-      
     </div>
   );
 }

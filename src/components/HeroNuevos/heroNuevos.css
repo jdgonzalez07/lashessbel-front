@@ -1,0 +1,41 @@
+.container-nuevos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  min-height: 80vh;
+  color: #fff;
+
+  background-color: #d6bde988;
+}
+
+.container-info-nuevo {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 2rem;
+  align-items: normal;
+  font-family: "Mooli", sans-serif;
+  border-radius: 5rem;
+  font-weight: 500;
+  min-height: 20vh;
+  margin: 0.5rem;
+  width: 50%;
+  background-color: #9882cc;
+}
+
+.container-info-nuevo h2 {
+  text-align: center;
+  font-weight: 700;
+  
+}
+
+
+@media (max-width:700px){
+  .container-info-nuevo {
+    border-radius: 3rem;
+    width: 80%;
+    
+  }
+
+}
