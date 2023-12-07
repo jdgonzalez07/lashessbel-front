@@ -40,12 +40,13 @@
   font-family: "Mooli", sans-serif;
   font-size: 2rem;
   font-weight: bold;
-  color: #fff;
+  color: rgb(255, 255, 255);
   text-decoration: none;
   display: inline;
   margin-left: 1rem;
   will-change: font-size;
   transition: font-size 0.3s ease-in-out;
+  text-shadow: 1px 1px 2px rgb(245, 245, 245),2px 2px 2px rgb(240, 240, 240),3px 3px 2px rgb(245, 245, 245),3px 4px 4px rgba(0,0,0,0.2)  ;
 }
 
 .title-navbar a:hover {
@@ -72,6 +73,13 @@
 .links-navbar a:hover {
   font-size: 26px; 
   color: #9378d3;
+}
+
+.nuevo{
+  position: absolute;
+  background-color: #9378d3;
+  padding: 1px;
+  border-radius: 2rem;
 }
 
 
@@ -139,7 +147,7 @@
 }
 
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 850px) {
   /* Oculta el menú horizontal en pantallas pequeñas */
   .links-navbar {
     display: none;
@@ -153,7 +161,7 @@
 
 }
 
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 850px) {
   /* Oculta el menú horizontal en pantallas pequeñas */
   .links-navbar {
     display: block;
