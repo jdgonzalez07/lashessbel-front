@@ -8,7 +8,7 @@ const criolipolisis = [
           "Es ideal para la grasita localizada"
         ],
         price: ["1 zona a elección: $4000", "2 zonas a elección: $4500", "3 zonas a elección: $5000"],
-        zones: ["abdomen", "flancos", "brazos", "isquiotibiales", "cuadriceps"],
+        zones: ["Abdomen", "Flancos", "Brazos", "Aductores", "Glúteos", "Papada"],
         src: "crio.jpeg"
       },
 ]

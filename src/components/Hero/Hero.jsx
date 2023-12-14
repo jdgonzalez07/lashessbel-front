@@ -18,6 +18,10 @@ function Hero() {
           natural.
         </p>
       </div>
+      <div className="anuncio">
+        <h3>¡ Importante !</h3>
+        <p>Todos los servicios que ofrecemos se reservan con una seña del 50%.</p>
+      </div>
       <div className="container-hero-nuevo">
         <h3>Tenemos nuevos servicios para ofrecer</h3>
         <p>Haz click en el siguiente enlace para más información: </p>
